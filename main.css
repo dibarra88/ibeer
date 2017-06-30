@@ -32,6 +32,7 @@ img{
     display: flex;
    flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
     /*
         TODO: 
         - Center up the page
@@ -117,6 +118,7 @@ main{
     width: 540px;
     position: relative; 
     z-index: 500;
+    bottom:50px;
     /*
         TODO: 
         - Flexbox: Set the starting width of this element
@@ -130,6 +132,7 @@ aside{
     width: 150px;
     position: relative;
     z-index: 500;
+    bottom: 50px;
     /*
         TODO: 
         - Flexbox: Set the starting width of this element
@@ -200,6 +203,7 @@ article footer p{
     background: #333;
     color: white;
     text-align: center;
+    margin: auto;
     /*
         TODO: 
         - Style the site footer
